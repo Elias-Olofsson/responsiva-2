@@ -1,0 +1,55 @@
+.rectangleone{
+  /*rid-area:1/1/span 1/span 1;*/
+  position: absolute;
+  background-color:red;
+  display:inline-block;
+  height:50vh;
+  width:50vw;
+  top:0;
+  left:0;
+  z-index:1;
+}
+.rectangletwo{
+  /*grid-area:2/1/span 1/span 1;*/
+  position: absolute;
+  background-color:blue;
+  display:inline-block;
+  height:50vh;
+  width:50vw;
+  top:0;
+  left:50vw;
+  z-index:2;
+}
+.rectanglethree{
+  /*grid-area:1/2/span 1/span 1;*/
+  position: absolute;
+  background-color:green;
+  display:inline-block;
+  height:50vh;
+  width:50vw;
+  top:50vh;
+  left:0;
+  z-index:3;
+}
+.rectanglefour{
+  /*grid-area:2/2/span 1/span 1;*/
+  position: absolute;
+  background-color:yellow;
+  display:inline-block;
+  height:50vh;
+  width:50vw;
+  top:50vh;
+  left:50vw;
+  z-index:4;
+}
+h1{
+  font-size:4vw;
+}
+  /*.continer{
+  display:grid;
+  grid-template-rows:1fr 1fr;
+  grid-template-columns:1fr 1fr;
+}*/
+body {
+  margin: 0px 0px 0px 0px;
+}
